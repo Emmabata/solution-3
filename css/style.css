@@ -1,0 +1,145 @@
+.navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+}
+.navbar-collapse.in {
+    overflow-y: auto;
+}
+.collapse.in {
+    display: block;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #ddd;
+}
+.nabar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    border: 2px solid black;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    background-color: #888;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 1px;
+}
+button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    overflow: visible;
+     
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 1px solid transparent;
+    box-shadow:inset 0 1px 0 rgb(255, 225 , 255 / 10);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+#nav-list a:hover {
+    background: whitesmoke;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: pink;
+    display:block;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+    background-color: deeppink;
+}
+#menu-info {
+    background-color: pink;
+}
+#menu-info span {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.navbar-brand h1 {
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: .65;
+}
+#header-nav {
+    background-color: pink ;
+}
+#nav-list span {
+    background-color: pink
+
+}
+*{
+box-sizing: border-box;
+}
+@media (max-width: 767px) {
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 1.5em;
+    }
+    #main-content h3 {
+         font-weight: bold;
+         text-align: center;
+         margin-bottom: 15px;
+         margin-top: 0px;
+         font-size: 1.5em;
+    }
+    #nav-list span {
+        font-size: .9em;
+        font-weight: bold;
+        color: black;
+        text-align: justify;
+    }
+    body {
+        font-size: 1.4em;
+    }
+    .navbar-nav>li>a {
+        line-height: 20px;
+    }
+}
